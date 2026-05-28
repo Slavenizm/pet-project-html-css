@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-page {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+  background-color: #faf2e6;
+
+  width: 480px;
+}
+.text-information {
+  margin: 40px 28px 20px 28px;
+}
+.main-text {
+  text-align: center;
+  color: #205529;
+}
+
+.paragraph-text {
+  margin-top: 12px;
+  text-align: center;
+  color: #205529;
+}
+.button {
+  align-content: center;
+  background-color: #205529;
+  margin-top: 20px;
+  color: #faf2e6;
+  width: 110px;
+  height: 42px;
+}

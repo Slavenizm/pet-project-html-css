@@ -1,47 +1,33 @@
-* {
+body {
+  background: #f8fafc;
+  font-family: "Noto Sans", "Inter", sans-serif;
+}
+
+.advantages {
+  max-width: 1280px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.advantages__title {
+  border: 1px solid #ebebf0;
+  padding: 30px 50px 30px 50px;
+  flex: 1 1 220px;
+}
+
+img {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 20px;
+}
+
+.advantages__title h3 {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.card {
-  padding: 35px;
-  background-color: #f6f9fc;
-  color: #343a40;
-  width: 294px;
-  height: 414.2px;
-  text-align: center;
-  font-family: "Inter", sans-serif;
-  border-radius: 25px;
-}
-
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-}
-
-.description__title {
-  margin-bottom: 25px;
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: 0%;
-}
-
-.description__text {
-  margin-bottom: 30px;
-  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
   font-size: 16px;
-  line-height: 28px;
-  letter-spacing: 0%;
-}
-
-.description__button {
-  border: 1px solid #485c46;
-  color: #485c46;
-  width: 120px;
-  height: 38px;
-  border-radius: 6px;
-  background: transparent;
+  font-weight: 400;
+  color: #292d33;
+  line-height: 1.6;
 }
